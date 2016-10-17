@@ -17,7 +17,7 @@ function setup() {
   createCanvas(640, 480);
   background(45, 65, 80);
 
-  mySound = loadSound("histheme.m4a", playMusic);
+  mySound = loadSound("histheme.mp3", playMusic);
 }
 
 function draw() {
