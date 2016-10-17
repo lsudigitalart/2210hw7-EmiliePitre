@@ -5,13 +5,6 @@ var actualTime;
 var loadTime;
 
 rainY = 0
-var rainY1 = 0;
-var rainY2 = 0;
-var rainY3 = 0;
-var rainY4 = 0;
-var rainY5 = 0;
-var rainY6 = 0;
-var rainY7 = 0;
 var rainSpeed = 20
 var length = 10
 
@@ -45,115 +38,14 @@ function draw() {
       }
     noStroke();
     fill(100, 150, 150);
-    rect(100, rainY - 0, length, 50, 5);
-    rect(600, rainY - 300 , length, 50, 5);
-    rect(400, rainY - 600, length, 50, 5);
-    rect(450, rainY - 900, length, 50, 5);
-    rect(500, rainY - 1300, length, 50, 5);
-    rect(100, rainY - 1700, length, 50, 5);
-    rect(200, rainY - 2100, length, 50, 5);
+    rect(100, rainY - 0, 5, length, 5);
+    rect(600, rainY - 300, 5, length, 5);
+    rect(400, rainY - 600, 5, length, 5);
+    rect(450, rainY - 900, 5, length, 5);
+    rect(500, rainY - 1300, 5, length, 5);
+    rect(100, rainY - 1700, 5, length, 5);
+    rect(200, rainY - 2100, 5, length, 5);
   }
-
-//rain1
-
-  // if(actualTime > 0 && actualTime < 50000){
-  //   rainY1 += speed/2;
-  //     if (rainY1 > height + length) {
-  //       rainY1 = -length;
-  //     }
-  //   noStroke();
-  //   fill(100, 150, 150);
-  //   rect(100, rainY1, length, 50, 5);
-  // }
-  //
-  //
-  // if(actualTime > 300 && actualTime < 50000){
-  //   rainY2 += speed/2;
-  //     if (rainY2 > height + length) {
-  //       rainY2 = -length;
-  //     }
-  //     noStroke();
-  //     fill(100, 150, 150);
-  //     rect(350, rainY2, 5, 20, 5);
-  // }
-  //
-  //
-  // if(actualTime > 600 && actualTime < 50000){
-  //   rainY3 += speed/2;
-  //     if (rainY3 > height + length) {
-  //       rainY3 = -length;
-  //     }
-  //     noStroke();
-  //     fill(100, 150, 150);
-  //     rect(400, rainY3, 10, 40, 5);
-  // }
-  //
-  //
-  // if(actualTime > 900 && actualTime < 50000){
-  //   rainY4 += speed/2;
-  //     if (rainY4 > height + length) {
-  //       rainY4 = -length;
-  //     }
-  //     noStroke();
-  //     fill(100, 150, 150);
-  //     rect(50, rainY4, 10, 40, 5);
-  // }
-  //
-  //
-  // if(actualTime > 1400 && actualTime < 50000){
-  //   rainY5 += speed/2;
-  //     if (rainY5 > height + length) {
-  //       rainY5 = -length;
-  //     }
-  //     noStroke();
-  //     fill(100, 150, 150);
-  //     rect(550, rainY5, 5, 20, 5);
-  // }
-  //
-  //
-  // if(actualTime > 1800 && actualTime < 50000){
-  //   rainY6 += speed/2;
-  //     if (rainY6 > height + length) {
-  //       rainY6 = -length;
-  //     }
-  //     noStroke();
-  //     fill(100, 150, 150);
-  //     rect(300, rainY6, 5, 20, 5);
-  // }
-  //
-  //
-  // if(actualTime > 2100 && actualTime < 50000){
-  //   rainY7 += speed/2;
-  //     if (rainY7 > height + length) {
-  //       rainY7 = -length;
-  //     }
-  //     noStroke();
-  //     fill(100, 150, 150);
-  //     rect(250, rainY7, 10, 40, 5);
-  // }
-// endrain
-
-// waterline
-  // if((actualTime > 0 && actualTime < 100)
-  // || (actualTime > 300 && actualTime < 400)
-  // || (actualTime > 600 && actualTime < 700)
-  // || (actualTime > 900 && actualTime < 1000)
-  // || (actualTime > 1300 && actualTime < 1400)
-  // || (actualTime > 1700 && actualTime < 1800)
-  // || (actualTime > 2100 && actualTime < 2200)
-  // ){
-  //   strokeWeight(5);
-  //   stroke(35,55,65);
-  // } else {
-  //   strokeWeight(1);
-  //   stroke(30,50,60);
-  // }
-
-//water
-//   noStroke();
-//   fill(10, 40, 50);
-//   rect(-50, 300, width + 100, height/2);
-// //end water
 
 //waterline
   if((actualTime > 0 && actualTime < 100)
