@@ -6,7 +6,7 @@ var loadTime;
 
 rainY = 0
 var rainSpeed = 20
-var length = 10
+var length = 20;
 
 var dia = 0;
 var opacity = 255;
@@ -23,7 +23,7 @@ function setup() {
 function draw() {
   background(45, 65, 80);
   actualTime = millis() - loadTime;
-  println(actualTime);
+  // println(actualTime);
   rotate(0.001);
 
 
