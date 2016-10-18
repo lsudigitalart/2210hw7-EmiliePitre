@@ -23,7 +23,6 @@ function setup() {
 function draw() {
   background(45, 65, 80);
   actualTime = millis() - loadTime;
-  // println(actualTime);
   rotate(0.001);
 
 
